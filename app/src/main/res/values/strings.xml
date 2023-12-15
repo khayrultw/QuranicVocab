@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quranic Vocab</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="practice">Practice</string>
+    <string name="my_words">My Words</string>
+    <string name="add_word">Add Words</string>
+    <string name="update_word">Update Words</string>
+    <string name="need_practice">Need Practice</string>
+    <string name="im_done">I\'m Done</string>
+    <string name="repeat">Repeat</string>
+</resources>

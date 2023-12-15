@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "487300041530",
+    "project_id": "quranic-vocab",
+    "storage_bucket": "quranic-vocab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487300041530:android:4670f925d3a2ff03a4de03",
+        "android_client_info": {
+          "package_name": "com.khw.quranicvocab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487300041530-bpm6k2ip5rerdl0ssca6pg130o68frlp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khw.quranicvocab",
+            "certificate_hash": "f9105f032d4122f1ffa748c272e03786a239906a"
+          }
+        },
+        {
+          "client_id": "487300041530-9gc07qut6dgg36tgpl8hak27dpibkbt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-iyawbzS7VEEgs4roYrFQhOEhG1GQX0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487300041530-9gc07qut6dgg36tgpl8hak27dpibkbt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/tabContainerFragment">
+
+    <fragment
+        android:id="@+id/tabContainerFragment"
+        android:name="com.khw.quranicvocab.ui.tabContainer.TabContainerFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_home_to_practice"
+            app:destination="@id/practiceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/practiceFragment"
+        android:name="com.khw.quranicvocab.ui.learn.PracticeFragment"
+        android:label="PracticeFragment" />
+</navigation>
