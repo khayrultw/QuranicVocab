@@ -1,6 +1,6 @@
-package com.khw.quranicvocab.ui.learn.viewModel
+package com.khw.quranicvocab.ui.screens.learn.viewModel
 
-import com.khw.quranicvocab.ui.base.BaseViewModel
+import com.khw.quranicvocab.ui.screens.base.BaseViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 
 class PracticeViewModel: BaseViewModel() {

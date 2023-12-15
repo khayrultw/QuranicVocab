@@ -1,6 +1,5 @@
-package com.khw.quranicvocab.ui.profile.composable
+package com.khw.quranicvocab.ui.screens.profile.composable
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -18,7 +17,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.khw.quranicvocab.ui.profile.viewModel.ProfileViewModel
+import com.khw.quranicvocab.ui.screens.profile.viewModel.ProfileViewModel
 
 @Composable
 fun Profile(

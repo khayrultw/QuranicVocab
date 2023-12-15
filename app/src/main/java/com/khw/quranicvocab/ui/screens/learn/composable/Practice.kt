@@ -1,6 +1,5 @@
-package com.khw.quranicvocab.ui.learn.composable
+package com.khw.quranicvocab.ui.screens.learn.composable
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -26,17 +25,13 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
-import androidx.constraintlayout.compose.Dimension
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.khw.quranicvocab.R
-import com.khw.quranicvocab.ui.learn.viewModel.PracticeUiModel
-import com.khw.quranicvocab.ui.learn.viewModel.PracticeViewModel
+import com.khw.quranicvocab.ui.screens.learn.viewModel.PracticeViewModel
 
 @Composable
 fun Practice(viewModel: PracticeViewModel) {

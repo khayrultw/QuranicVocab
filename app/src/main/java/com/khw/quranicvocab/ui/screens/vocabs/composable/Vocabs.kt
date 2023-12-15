@@ -1,4 +1,4 @@
-package com.khw.quranicvocab.ui.vocabs.composable
+package com.khw.quranicvocab.ui.screens.vocabs.composable
 
 import android.util.Log
 import androidx.compose.foundation.layout.Column
@@ -19,7 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.khw.quranicvocab.data.model.Vocab
-import com.khw.quranicvocab.ui.vocabs.viewModel.VocabsViewModel
+import com.khw.quranicvocab.ui.screens.vocabs.viewModel.VocabsViewModel
 
 @Composable
 fun Review(

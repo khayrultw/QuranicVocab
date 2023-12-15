@@ -1,10 +1,10 @@
-package com.khw.quranicvocab.ui.vocabs
+package com.khw.quranicvocab.ui.screens.vocabs
 
 import androidx.compose.runtime.Composable
 import androidx.fragment.app.viewModels
-import com.khw.quranicvocab.ui.base.BaseComposeFragment
-import com.khw.quranicvocab.ui.vocabs.composable.Review
-import com.khw.quranicvocab.ui.vocabs.viewModel.VocabsViewModel
+import com.khw.quranicvocab.ui.screens.base.BaseComposeFragment
+import com.khw.quranicvocab.ui.screens.vocabs.composable.Review
+import com.khw.quranicvocab.ui.screens.vocabs.viewModel.VocabsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

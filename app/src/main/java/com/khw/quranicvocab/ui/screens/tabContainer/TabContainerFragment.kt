@@ -1,4 +1,4 @@
-package com.khw.quranicvocab.ui.tabContainer
+package com.khw.quranicvocab.ui.screens.tabContainer
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,9 +9,9 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.google.android.material.tabs.TabLayoutMediator
 import com.khw.quranicvocab.R
 import com.khw.quranicvocab.databinding.FragmentHomeBinding
-import com.khw.quranicvocab.ui.home.HomeFragment
-import com.khw.quranicvocab.ui.profile.ProfileFragment
-import com.khw.quranicvocab.ui.vocabs.VocabsFragment
+import com.khw.quranicvocab.ui.screens.home.HomeFragment
+import com.khw.quranicvocab.ui.screens.profile.ProfileFragment
+import com.khw.quranicvocab.ui.screens.vocabs.VocabsFragment
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

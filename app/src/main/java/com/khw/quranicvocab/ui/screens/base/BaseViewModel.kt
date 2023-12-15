@@ -1,4 +1,4 @@
-package com.khw.quranicvocab.ui.base
+package com.khw.quranicvocab.ui.screens.base
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableSharedFlow

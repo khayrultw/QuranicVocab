@@ -1,4 +1,4 @@
-package com.khw.quranicvocab.ui.home
+package com.khw.quranicvocab.ui.screens.home
 
 import android.app.Activity
 import android.os.Bundle
@@ -7,18 +7,14 @@ import android.view.View
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.runtime.Composable
 import androidx.fragment.app.viewModels
-import com.google.android.gms.auth.api.identity.BeginSignInRequest
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
-import com.google.android.gms.common.api.ApiException
-import com.khw.quranicvocab.R
 import com.khw.quranicvocab.core.utils.Utils
-import com.khw.quranicvocab.ui.base.BaseComposeFragment
-import com.khw.quranicvocab.ui.home.composable.Home
-import com.khw.quranicvocab.ui.home.viewModel.HomeViewModel
+import com.khw.quranicvocab.ui.screens.base.BaseComposeFragment
+import com.khw.quranicvocab.ui.screens.home.composable.Home
+import com.khw.quranicvocab.ui.screens.home.viewModel.HomeViewModel
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.tasks.await
 
 @AndroidEntryPoint
 class HomeFragment: BaseComposeFragment() {

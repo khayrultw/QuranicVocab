@@ -1,10 +1,10 @@
-package com.khw.quranicvocab.ui.profile
+package com.khw.quranicvocab.ui.screens.profile
 
 import androidx.compose.runtime.Composable
 import androidx.fragment.app.viewModels
-import com.khw.quranicvocab.ui.base.BaseComposeFragment
-import com.khw.quranicvocab.ui.profile.composable.Profile
-import com.khw.quranicvocab.ui.profile.viewModel.ProfileViewModel
+import com.khw.quranicvocab.ui.screens.base.BaseComposeFragment
+import com.khw.quranicvocab.ui.screens.profile.composable.Profile
+import com.khw.quranicvocab.ui.screens.profile.viewModel.ProfileViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

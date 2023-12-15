@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/tabContainerFragment"
-        android:name="com.khw.quranicvocab.ui.tabContainer.TabContainerFragment"
+        android:name="com.khw.quranicvocab.ui.screens.tabContainer.TabContainerFragment"
         android:label="HomeFragment">
         <action
             android:id="@+id/action_home_to_practice"
@@ -14,6 +14,6 @@
     </fragment>
     <fragment
         android:id="@+id/practiceFragment"
-        android:name="com.khw.quranicvocab.ui.learn.PracticeFragment"
+        android:name="com.khw.quranicvocab.ui.screens.learn.PracticeFragment"
         android:label="PracticeFragment" />
 </navigation>

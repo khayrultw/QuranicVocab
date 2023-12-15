@@ -1,4 +1,4 @@
-package com.khw.quranicvocab.ui.learn.viewModel
+package com.khw.quranicvocab.ui.screens.learn.viewModel
 
 import com.khw.quranicvocab.data.model.Vocab
 

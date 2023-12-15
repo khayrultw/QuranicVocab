@@ -1,4 +1,4 @@
-package com.khw.quranicvocab.ui.base
+package com.khw.quranicvocab.ui.screens.base
 
 import android.os.Bundle
 import android.view.LayoutInflater
